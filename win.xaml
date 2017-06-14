@@ -1,0 +1,126 @@
+﻿<Window x:Class="win"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Voting Results" Height="768" Width="1364" ResizeMode="CanResize" WindowStartupLocation="CenterScreen" WindowState="Maximized" Icon="/GrandiCube;component/Images/note2.ico">
+    <Window.Background>
+        <ImageBrush ImageSource="/GrandiCube;component/Images/bg45.jpg" />
+    </Window.Background>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="997*" />
+            <ColumnDefinition Width="347*" />
+        </Grid.ColumnDefinitions>
+        <Rectangle Fill="#4CFFFFFF" Height="590" HorizontalAlignment="Left" Margin="0,139,0,0" Name="Rectangle1" Stroke="Black" VerticalAlignment="Top" Width="1390" Grid.ColumnSpan="2" />
+        <Image Height="82" Name="Image1" Opacity="3" Source="/GrandiCube;component/Images/Banner.png" Stretch="UniformToFill" VerticalAlignment="Top" Grid.ColumnSpan="2" />
+        <TextBlock FontFamily="Segoe Print" FontSize="26" FontStyle="Normal" FontWeight="Normal" Foreground="Black" Height="51" HorizontalAlignment="Stretch" Margin="0,82,0,0" Name="TextBlock3" Text="Lets take a look at the results!!! :D :P" TextAlignment="Center" VerticalAlignment="Top" Grid.ColumnSpan="2"><TextBlock.Background><LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5"><GradientStop Color="#E5FFFFFF" Offset="0.472" /><GradientStop Color="Transparent" Offset="0" /><GradientStop Offset="0.976" /></LinearGradientBrush></TextBlock.Background></TextBlock>
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" HorizontalAlignment="Left" Margin="40,183,0,0" Name="q2" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="278" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" HorizontalAlignment="Left" Margin="40,220,0,0" Name="q3" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="278" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" HorizontalAlignment="Left" Margin="40,331,0,0" Name="q6" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="278" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" HorizontalAlignment="Left" Margin="40,368,0,0" Name="q7" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="278" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" HorizontalAlignment="Left" Margin="40,405,0,0" Name="q8" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="278" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" HorizontalAlignment="Left" Margin="40,442,0,0" Name="q9" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="278" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" HorizontalAlignment="Left" Margin="40,479,0,0" Name="q10" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="278" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" HorizontalAlignment="Left" Margin="40,257,0,0" Name="q4" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="278" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" HorizontalAlignment="Left" Margin="40,294,0,0" Name="q5" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="278" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" HorizontalAlignment="Left" Margin="40,627,0,0" Name="q14" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="278" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="40,664,0,0" Name="q15" Text="" TextAlignment="Center" VerticalAlignment="Top" HorizontalAlignment="Left" Width="278" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" HorizontalAlignment="Left" Margin="521,146,0,0" Name="q16" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="278" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="324,627,620,0" Name="c14" Text="" TextAlignment="Center" VerticalAlignment="Top" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" HorizontalAlignment="Left" Margin="521,257,0,0" Name="q19" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="278" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" HorizontalAlignment="Left" Margin="521,294,0,0" Name="q20" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="278" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" HorizontalAlignment="Left" Margin="521,331,0,0" Name="q21" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="278" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" HorizontalAlignment="Left" Margin="521,368,0,0" Name="q22" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="278" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" HorizontalAlignment="Left" Margin="521,405,0,0" Name="q23" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="278" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" HorizontalAlignment="Left" Margin="521,183,0,0" Name="q17" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="278" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" HorizontalAlignment="Left" Margin="521,220,0,0" Name="q18" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="278" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" HorizontalAlignment="Left" Margin="521,590,0,0" Name="q28" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="278" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" HorizontalAlignment="Left" Margin="521,627,0,0" Name="q29" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="278" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" HorizontalAlignment="Left" Margin="521,664,0,0" Name="q30" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="278" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Margin="804,590,140,0" Name="c28" Text="" TextAlignment="Center" Height="31" VerticalAlignment="Top" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" HorizontalAlignment="Left" Margin="978,220,0,0" Name="q33" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="278" Grid.ColumnSpan="2" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" HorizontalAlignment="Left" Margin="978,257,0,0" Name="q34" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="278" Grid.ColumnSpan="2" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" HorizontalAlignment="Left" Margin="978,294,0,0" Name="q35" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="278" Grid.ColumnSpan="2" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" HorizontalAlignment="Left" Margin="978,331,0,0" Name="q36" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="278" Grid.ColumnSpan="2" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" HorizontalAlignment="Left" Margin="978,368,0,0" Name="q37" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="278" Grid.ColumnSpan="2" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" HorizontalAlignment="Left" Margin="978,146,0,0" Name="q31" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="278" Grid.ColumnSpan="2" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="324,183,620,0" Name="c2" Text="" TextAlignment="Center" VerticalAlignment="Top" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="324,220,620,0" Name="c3" Text="" TextAlignment="Center" VerticalAlignment="Top" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="324,294,620,0" Name="c5" Text="" TextAlignment="Center" VerticalAlignment="Top" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="324,331,620,0" Name="c6" Text="" TextAlignment="Center" VerticalAlignment="Top" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="324,368,620,0" Name="c7" Text="" TextAlignment="Center" VerticalAlignment="Top" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="324,405,620,0" Name="c8" Text="" TextAlignment="Center" VerticalAlignment="Top" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="324,442,620,0" Name="c9" Text="" TextAlignment="Center" VerticalAlignment="Top" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="324,479,620,0" Name="c10" Text="" TextAlignment="Center" VerticalAlignment="Top" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="324,664,620,0" Name="c15" Text="" TextAlignment="Center" VerticalAlignment="Top" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="805,146,139,0" Name="c16" Text="" TextAlignment="Center" VerticalAlignment="Top" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="805,183,139,0" Name="c17" Text="" TextAlignment="Center" VerticalAlignment="Top" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="805,220,139,0" Name="c18" Text="" TextAlignment="Center" VerticalAlignment="Top" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="805,257,139,0" Name="c19" Text="" TextAlignment="Center" VerticalAlignment="Top" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="805,294,139,0" Name="c20" Text="" TextAlignment="Center" VerticalAlignment="Top" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="805,331,139,0" Name="c21" Text="" TextAlignment="Center" VerticalAlignment="Top" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="805,405,139,0" Name="c23" Text="" TextAlignment="Center" VerticalAlignment="Top" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="804,627,140,0" Name="c29" Text="" TextAlignment="Center" VerticalAlignment="Top" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="265,146,29,0" Name="c31" Text="" TextAlignment="Center" VerticalAlignment="Top" Grid.Column="1" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="265,220,29,0" Name="c33" Text="" TextAlignment="Center" VerticalAlignment="Top" Grid.Column="1" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="265,257,29,0" Name="c34" Text="" TextAlignment="Center" VerticalAlignment="Top" Grid.Column="1" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="265,294,29,0" Name="c35" Text="" TextAlignment="Center" VerticalAlignment="Top" Grid.Column="1" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="265,331,29,0" Name="c36" Text="" TextAlignment="Center" VerticalAlignment="Top" Grid.Column="1" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="265,368,29,0" Name="c37" Text="" TextAlignment="Center" VerticalAlignment="Top" Grid.Column="1" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" HorizontalAlignment="Left" Margin="40,516,0,0" Name="q11" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="278" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" HorizontalAlignment="Left" Margin="40,553,0,0" Name="q12" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="278" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" HorizontalAlignment="Left" Margin="40,590,0,0" Name="q13" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="278" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" HorizontalAlignment="Left" Margin="521,442,0,0" Name="q24" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="278" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" HorizontalAlignment="Left" Margin="521,479,0,0" Name="q25" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="278" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" HorizontalAlignment="Left" Margin="521,516,0,0" Name="q26" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="278" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" HorizontalAlignment="Left" Margin="978,405,0,0" Name="q38" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="278" Grid.ColumnSpan="2" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" HorizontalAlignment="Left" Margin="978,442,0,0" Name="q39" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="278" Grid.ColumnSpan="2" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" HorizontalAlignment="Left" Margin="978,479,0,0" Name="q40" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="278" Grid.ColumnSpan="2" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="324,516,620,0" Name="c11" Text="" TextAlignment="Center" VerticalAlignment="Top" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="324,590,620,0" Name="c13" Text="" TextAlignment="Center" VerticalAlignment="Top" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="805,442,139,0" Name="c24" Text="" TextAlignment="Center" VerticalAlignment="Top" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="805,479,139,0" Name="c25" Text="" TextAlignment="Center" VerticalAlignment="Top" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="805,516,139,0" Name="c26" Text="" TextAlignment="Center" VerticalAlignment="Top" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="265,405,29,0" Name="c38" Text="" TextAlignment="Center" VerticalAlignment="Top" Grid.Column="1" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="265,442,29,0" Name="c39" Text="" TextAlignment="Center" VerticalAlignment="Top" Grid.Column="1" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="265,479,29,0" Name="c40" Text="" TextAlignment="Center" VerticalAlignment="Top" Grid.Column="1" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" HorizontalAlignment="Left" Margin="521,553,0,0" Name="q27" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="278" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="805,553,139,0" Name="c27" Text="" TextAlignment="Center" VerticalAlignment="Top" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="805,368,139,0" Name="c22" Text="" TextAlignment="Center" VerticalAlignment="Top" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="324,553,620,0" Name="c12" Text="" TextAlignment="Center" VerticalAlignment="Top" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" HorizontalAlignment="Left" Margin="978,183,0,0" Name="q32" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="278" Grid.ColumnSpan="2" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="265,183,29,0" Name="c32" Text="" TextAlignment="Center" VerticalAlignment="Top" Grid.Column="1" />
+        <Button BorderBrush="Maroon" Content="Reset Counters   " Cursor="Hand" FontFamily="Gabriola" FontSize="35" FontStyle="Normal" FontWeight="Bold" Height="51" HorizontalContentAlignment="Right" Margin="81,82,0,0" Name="reset" VerticalAlignment="Top" Visibility="Visible" Grid.Column="1" HorizontalAlignment="Left" Width="250">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Transparent" Offset="0" />
+                    <GradientStop Color="#FFBE1B1B" Offset="1" />
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Image Height="42" Margin="84,86,217,0" Name="img" Source="/GrandiCube;component/Images/refresh_48.png" Stretch="Fill" VerticalAlignment="Top" Visibility="Visible" Width="45" Grid.Column="1" />
+        <Button BorderBrush="Green" Content="Save Results   " Cursor="Hand" FontFamily="Gabriola" FontSize="35" FontStyle="Normal" FontWeight="Bold" Height="51" HorizontalContentAlignment="Right" Margin="12,82,775,0" Name="save" VerticalAlignment="Top" Visibility="Visible">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Transparent" Offset="0" />
+                    <GradientStop Color="#FF2CBE1B" Offset="1" />
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Image Height="42" Margin="17,88,0,0" Name="Image2" Source="/GrandiCube;component/Images/Save_64.png" Stretch="Fill" VerticalAlignment="Top" Visibility="Visible" HorizontalAlignment="Left" Width="41" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="324,257,620,0" Name="c4" Text="" TextAlignment="Center" VerticalAlignment="Top" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="804,664,140,0" Name="c30" Text="" TextAlignment="Center" VerticalAlignment="Top" />
+        <TextBlock FontSize="18" Foreground="White" Height="28" HorizontalAlignment="Right" Margin="0,26,12,0" Name="textBlock6" Text="©2013 Students of Deeksha Surana" VerticalAlignment="Top" Width="290" Grid.Column="1" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" HorizontalAlignment="Left" Margin="978,516,0,0" Name="q41" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="278" Grid.ColumnSpan="2" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="266,516,28,0" Name="c41" Text="" TextAlignment="Center" VerticalAlignment="Top" Grid.Column="1" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" HorizontalAlignment="Left" Margin="978,627,0,0" Name="q44" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="278" Grid.ColumnSpan="2" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="265,627,29,0" Name="c44" Text="" TextAlignment="Center" VerticalAlignment="Top" Grid.Column="1" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" HorizontalAlignment="Left" Margin="978,553,0,0" Name="q42" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="278" Grid.ColumnSpan="2" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="266,553,28,0" Name="c42" Text="" TextAlignment="Center" VerticalAlignment="Top" Grid.Column="1" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" HorizontalAlignment="Left" Margin="978,590,0,0" Name="q43" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="278" Grid.ColumnSpan="2" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="266,590,28,0" Name="c43" Text="" TextAlignment="Center" VerticalAlignment="Top" Grid.Column="1" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" HorizontalAlignment="Left" Margin="978,664,0,0" Name="q45" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="278" Grid.ColumnSpan="2" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="265,664,29,0" Name="c45" Text="" TextAlignment="Center" VerticalAlignment="Top" Grid.Column="1" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" HorizontalAlignment="Left" Margin="40,146,0,0" Name="q1" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="278" />
+        <TextBlock Background="#74E2AB2E" FontFamily="Segoe UI" FontSize="20" Height="31" Margin="324,146,620,0" Name="c1" Text="" TextAlignment="Center" VerticalAlignment="Top" />
+    </Grid>
+</Window>

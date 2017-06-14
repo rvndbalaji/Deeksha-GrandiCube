@@ -1,0 +1,496 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{32441185-4962-490A-A985-7BB5F48AA6F9}</ProjectGuid>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>GrandiCube</RootNamespace>
+    <AssemblyName>GrandiCube</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <MyType>Custom</MyType>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>D:\Visual Basics 2010\Software Setup Files\Grand iCube Setup\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ProductName>Grand iCube VotingApp</ProductName>
+    <PublisherName>Deeksha Surana</PublisherName>
+    <SuiteName>Grand iCube</SuiteName>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>5</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <IncrementalBuild>true</IncrementalBuild>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>GrandiCube.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42314</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <IncrementalBuild>false</IncrementalBuild>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>GrandiCube.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42314</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Images\iCube ico.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>6E0D6D3BC3813BB7C5E0A7711AABF19539A17914</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>GrandiCube_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualStudio.Modeling.Sdk.Integration.10.0, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.VisualStudio.Modeling.Sdk.Integration.Shell.10.0, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.VisualStudio.OLE.Interop, Version=7.1.40304.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.VisualStudio.Shell.10.0, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.VisualStudio.Shell.Interop, Version=7.1.40304.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.VisualStudio.Shell.Interop.8.0, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.Windows.Shell">
+      <HintPath>..\..\Backup\VotingApp\bin\Debug\Microsoft.Windows.Shell.dll</HintPath>
+    </Reference>
+    <Reference Include="ReachFramework" />
+    <Reference Include="RibbonControlsLibrary">
+      <HintPath>..\..\Backup\VotingApp\bin\Debug\RibbonControlsLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="WindowsFormsIntegration" />
+    <Reference Include="WPFToolkit.Extended">
+      <HintPath>..\..\Backup\VotingApp\bin\Debug\WPFToolkit.Extended.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="Application.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="cred.xaml.vb">
+      <DependentUpon>cred.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="vote.xaml.vb">
+      <DependentUpon>vote.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="win.xaml.vb">
+      <DependentUpon>win.xaml</DependentUpon>
+    </Compile>
+    <Page Include="cont.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="cred.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="Application.xaml.vb">
+      <DependentUpon>Application.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="cont.xaml.vb">
+      <DependentUpon>cont.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.xaml.vb">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="vote.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="win.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows" />
+    <Import Include="System.Windows.Controls" />
+    <Import Include="System.Windows.Data" />
+    <Import Include="System.Windows.Documents" />
+    <Import Include="System.Windows.Input" />
+    <Import Include="System.Windows.Shapes" />
+    <Import Include="System.Windows.Media" />
+    <Import Include="System.Windows.Media.Imaging" />
+    <Import Include="System.Windows.Navigation" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="My Project\AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWpfExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.WPF.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="GrandiCube_TemporaryKey.pfx" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <AppDesigner Include="My Project\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Images\i-cube_logo_ico.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\nebula.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\logomain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\bg25.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\bg28.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\bg26.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\i-cube_logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\note1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\task.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\voting.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Banner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\logomain - Copy1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="Microsoft.MSXML">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualStudio.Modeling.Sdk.10.0">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualStudio.Modeling.Sdk.Integration.10.0">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualStudio.OLE.Interop">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualStudio.Shell.Interop">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualStudio.Shell.Interop.8.0">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualStudio.TextManager.Interop">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualStudio.TextManager.Interop.8.0">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="WPFToolkit.Extended">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\bg45.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\note2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Login-toolbar.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Save_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\CCleaner-Grey.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\win.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Administrator.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\bg36.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\bg35.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\DSCN0050.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\DSCN0054.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\1-DSCN0050.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\1-DSCN0054.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\1-DSCN0045.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\1-DSCN0049.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\1-DSCN0047.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\1-DSCN0065.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\1-DSCN0080.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\1-DSCN0043.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\1-DSCN0055.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\1-DSCN0074.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\1-DSCN0071.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\1-DSCN0058.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\1-DSCN0078.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\1-DSCN0064.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\1-DSCN0075.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\1-DSCN0066.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\1-DSCN0070.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\1-DSCN0068.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\1-DSCN0069.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\DSCN0086-001.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\DSCN0081.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\DSCN0083-001.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\DSCN0082-001.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\refresh_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\refresh_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\bg37.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\3265-curves-and-stars-1366x768-abstract-wallpaper.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\clous.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Burbujas-deslumbramiento-luz-1800x2880.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <SplashScreen Include="Images\iCube ico.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\iCube ico1.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
